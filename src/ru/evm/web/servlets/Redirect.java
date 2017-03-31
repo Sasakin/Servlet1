@@ -10,7 +10,7 @@ import java.io.IOException;
  * Created by Sasakin Maxim on 01.04.2017.
  */
 public class Redirect extends HttpServlet {
-    private int count = 0;
+    private static int count = 0;
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         count++;
